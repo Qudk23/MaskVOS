@@ -24,6 +24,8 @@ The code requires `python>=3.8`, as well as `pytorch>=1.10` and `torchvision>=0.
 
 Download datasets from [here](https://pan.baidu.com/s/1b_72ju3g4g7ItE-c89yrTQ ) (passwd: 0y0x).
 
+Download pretrained model from [here](https://pan.baidu.com/s/1JcRKudcNK3HJ4LXHqFwupA  ) (passwd: qa2o).
+
 Please organize the files as follows:
 
 ```
@@ -34,11 +36,9 @@ MaskVOS/
   tools/
     best.pth
     pretrained_model/
-    mit_b0.pth
-    swin_tiny_patch4_window7_224.pth
-        pre_efficientnetv2-s.pth
-        pre_efficientnetv2-m.pth
-        pre_efficientnetv2-l.pth
+        mit_b0.pth
+        swin_tiny_patch4_window7_224.pth
+    
 ```
 ## Training
 ```
